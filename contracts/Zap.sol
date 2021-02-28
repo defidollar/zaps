@@ -75,7 +75,8 @@ contract Zap {
     }
 
     function calcMint(uint[N_COINS] memory inAmounts)
-        public view
+        public
+        view
         returns (uint dusdAmount)
     {
         for(uint i = 0; i < N_COINS; i++) {

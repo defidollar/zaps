@@ -1,0 +1,24 @@
+const underlyingCoins = [
+    '0x6B175474E89094C44Da98b954EedeAC495271d0F', // dai
+    '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48', // usdc
+    '0xdAC17F958D2ee523a2206206994597C13D831ec7', // usdt
+    '0x0000000000085d4780B73119b644AE5ecd22b376' // tusd
+]
+
+const coins = [
+    '0x16de59092dAE5CcF4A1E6439D611fd0653f0Bd01', // ydai
+    '0xd6aD7a6750A7593E092a9B218d66C0A814a3436e', // yusdc
+    '0x83f798e925BcD4017Eb265844FDDAbb448f1707D', // yusdt
+    '0x73a052500105205d34Daf004eAb301916DA8190f' // ytusd
+]
+
+module.exports = [
+    '0xbBC81d23Ea2c3ec7e56D39296F0cbB648873a5d3',
+    '0x45F783CCE6B7FF23B2ab2D70e416cdb7D6055f51',
+    '0xdF5e0e81Dff6FAF3A7e52BA697820c5e32D806A8',
+    '0x5BC25f649fc4e26069dDF4cF4010F9f706c23831', // dusd
+    '0x42600c4f6d84aa4d246a3957994da411fa8a4e1c', // ibDUSD
+    '0xa89bd606d5dadda60242e8dedeebc95c41ad8986',
+    underlyingCoins,
+    coins
+]
